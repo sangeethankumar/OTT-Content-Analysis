@@ -1,7 +1,10 @@
 # Analysis of content in Netflix, Amazon Prime, and Disney Plus
 
-[Dataset creator's name]. ([Year &amp; Month of dataset creation]). [Name of the dataset], [Version of the dataset]. Retrieved [Date Retrieved] from [URL of the dataset].
+## Introduction
+Blah blah blah
 
+
+## Data
 **Netflix data**
 Shivam Bansal. (2019-12-04). Netflix Movies and TV Shows, Version 5. Retrieved 2022-02-15 from [Netflix Movies and TV Shows](https://www.kaggle.com/shivamb/netflix-shows/metadata)
 
