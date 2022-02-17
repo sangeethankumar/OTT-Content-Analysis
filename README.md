@@ -3,6 +3,9 @@ Blah blah blah
 ## Introduction
 Blah blah blah
 
+## Cleaning
+Ratings are according to the [Amazon Prime Maturity Ratings](https://www.primevideo.com/help/ref=atv_hp_nd_cnt?nodeId=GFGQU3WYEG6FSJFJ#:~:text=and%20over%20(12)-,Young%20Adults,(18%2B)). The conversion keys is in 
+
 
 ## Data
 **Netflix data**<br>

@@ -32,22 +32,23 @@ def num_countries(countries):
     return num_c
 
 
-netflix = pd.read_csv('data/netflix/netflix_titles.csv')
-prime = pd.read_csv('data/amazonprime/amazon_prime_titles.csv')
-disneyplus = pd.read_csv('data/disneyplus/disney_plus_titles.csv')
+if __name__ == '__main__':
+    netflix = pd.read_csv('data/netflix/netflix_titles.csv')
+    prime = pd.read_csv('data/amazonprime/amazon_prime_titles.csv')
+    disneyplus = pd.read_csv('data/disneyplus/disney_plus_titles.csv')
 
-netflix['platform'] = 'Netflix'
-prime['platform'] = 'Prime'
-disneyplus['platform'] = 'Disney+'
+    netflix['platform'] = 'Netflix'
+    prime['platform'] = 'Prime'
+    disneyplus['platform'] = 'Disney+'
 
-ott = netflix.append(prime).append(disneyplus)
+    ott = netflix.append(prime).append(disneyplus)
 
-vec_split_duration = np.vectorize(split_duration)
-vec_split_seasons = np.vectorize(split_seasons)
-vec_num_countries = np.vectorize(num_countries)
+    vec_split_duration = np.vectorize(split_duration)
+    vec_split_seasons = np.vectorize(split_seasons)
+    vec_num_countries = np.vectorize(num_countries)
 
-ott['duration_min'] = vec_split_duration(ott.duration, ott.type)
-ott['num_seasons'] = vec_split_seasons(ott.duration, ott.type)
-ott['num_countries'] = vec_num_countries(ott.country)
+    ott['duration_min'] = vec_split_duration(ott.duration, ott.type)
+    ott['num_seasons'] = vec_split_seasons(ott.duration, ott.type)
+    ott['num_countries'] = vec_num_countries(ott.country)
 
-ott.to_csv('data/ott.csv')
+    ott.to_csv('data/ott.csv')
