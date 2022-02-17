@@ -1,30 +1,31 @@
-TV-MA       Adults
-TV-14       Young Adults
-13+         Teens
-R           Adults
-16+         Young Adults
-TV-PG       Older Kids
-ALL         General
-18+         Adults
-PG-13        Teens
-PG           Older Kids
-TV-G         General
-TV-Y7        Older Kids
-TV-Y         General
-G            General
-7+           Older Kids
-NA           Unrated
-NR           Unrated
-TV-NR        Unrated
-UNRATED       Unrated
-TV-Y7-FV      Older Kids
-NC-17          Adults
-UR             Unrated
-AGES_18_       Adults
-NOT_RATE       Unrated
-AGES_16_       Young Adults
-66 min         Unrated
-84 min         Unrated
-74 min         Unrated
-16             Young Adults
-ALL_AGES       General
+Old,New
+TV-MA,Adults
+TV-14,Young Adults
+13+,Teens
+R,Adults
+16+,Young Adults
+TV-PG,Older Kids
+ALL,General
+18+,Adults
+PG-13,Teens
+PG,Older Kids
+TV-G,General
+TV-Y7,Older Kids
+TV-Y,General
+G,General
+7+,Older Kids
+NA,Unrated
+NR,Unrated
+TV-NR,Unrated
+UNRATED,Unrated
+TV-Y7-FV,Older Kids
+NC-17,Adults
+UR,Unrated
+AGES_18_,Adults
+NOT_RATE,Unrated
+AGES_16_,Young Adults
+66 min,Unrated
+84 min,Unrated
+74 min,Unrated
+16,Young Adults
+ALL_AGES,General
