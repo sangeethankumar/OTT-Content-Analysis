@@ -4,7 +4,7 @@ Blah blah blah
 Blah blah blah
 
 ## Cleaning
-Ratings are according to the [Amazon Prime Maturity Ratings](https://www.primevideo.com/help/ref=atv_hp_nd_cnt?nodeId=GFGQU3WYEG6FSJFJ#:~:text=and%20over%20(12)-,Young%20Adults,(18%2B)). The conversion keys is in [Rating conversion key](https://www.primevideo.com/help/ref=atv_hp_nd_cnt?nodeId=GFGQU3WYEG6FSJFJ#:~:text=and%20over%20(12)-,Young%20Adults,(18%2B))
+Ratings are according to the [Amazon Prime Maturity Ratings](https://www.primevideo.com/help/ref=atv_hp_nd_cnt?nodeId=GFGQU3WYEG6FSJFJ#:~:text=and%20over%20(12)-,Young%20Adults,(18%2B)). The conversion keys is in [Rating conversion key](https://github.com/sangeethankumar/OTT-Content-Analysis/blob/master/cleaning_criteria/rating_conversion)
 
 
 ## Data
